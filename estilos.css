@@ -14,6 +14,7 @@ body {
   background-color: #f7b600;
   padding: 15px;
   text-align: center;
+  width: auto;
 }
 
 .navegacao_header,
@@ -24,6 +25,7 @@ body {
 h1 {
   color: #4e4e4e;
   font-size: 2.5em;
+  justify-self: center;
 }
 
 .branco {
@@ -32,6 +34,7 @@ h1 {
 
 .navegacao_header a {
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .efeitos:link,
@@ -90,9 +93,10 @@ p {
 
 .efeitos2 {
   text-decoration: none;
+  padding: 8px 12px;
 }
 
 .efeitos2:hover {
-  color: #f7b600;
+  color: white;
   background-color: #4e4e4e;
 }
